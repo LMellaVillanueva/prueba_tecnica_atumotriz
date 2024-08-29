@@ -3,8 +3,7 @@ import React from "react"
 const Footer = () => {
   return (
     <React.Fragment>
-        <footer className="bg-black w-full p-10 flex flex-col gap-5 md:gap-16 text-white">
-          <div className="border border-white w-4/5 m-auto hidden md:block"></div>
+        <footer className="bg-black w-full p-10 py-20 flex flex-col gap-5 md:gap-16 text-white">
             <div className="flex flex-col md:flex-row justify-evenly text-center md:text-start">
 
               <section className="p-10 md:p-0">

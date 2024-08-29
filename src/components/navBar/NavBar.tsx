@@ -5,7 +5,7 @@ import BurguerMenu from "../burguerMenu/BurguerMenu";
 const NavBar = () => {
   return (
     <React.Fragment>
-      <nav className="fixed top-0 md:w-screen h-1/6 flex bg-neutral-950 md:justify-start md:gap-20 p-5 items-center z-10 text-white">
+      <nav className="absolute top-0 md:w-full h-40 md:h-1/6 flex bg-neutral-950 md:justify-start md:gap-20 p-5 items-center z-10 text-white">
         <h1 className="mr-20 md:mr-20">Automotriz</h1>
 
         <BurguerMenu />
